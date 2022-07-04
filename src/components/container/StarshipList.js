@@ -12,7 +12,7 @@ export default class StarshipList extends PureComponent {
     //Define your componentDIdMount that will responsible for retrieving data.
     componentDidMount() {
         //Use fetch api used to retrieve data for starships, and pass a object with a method property set to GEt indicating it is a Get request.
-        fetch("https://swapi.co/api/starships", {
+        fetch("https://swapi.dev/api/starships", {
             method: "GET"
             //THen convert the response to json.
         }).then(res => res.json())

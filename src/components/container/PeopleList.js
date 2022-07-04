@@ -12,7 +12,7 @@ export default class PeopleList extends PureComponent {
     }
     componentDidMount() {
         //Fetch your people endpoint from swapi api, and then pass a object with a method property set to get indicating it is a get request.
-        fetch("https://swapi.co/api/people", {
+        fetch("https://swapi.dev/api/people", {
             method: "GET"
             //Resolve your promise, and convert the response to json.
         }).then(res => res.json())

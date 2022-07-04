@@ -13,7 +13,7 @@ export default class PlanetList extends PureComponent {
     componentDidMount() {
         //Use fetch api to get data for your planets using swapi planet api url, and pass a options with a property called method with a value of GET
         //indicating it is a Get request.
-        fetch("https://swapi.co/api/planets", {
+        fetch("https://swapi.dev/api/planets", {
             method: "GET"
             //COnvert the response to json.
         }).then(res => res.json())
