@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react';
+import PlanetsImg from '../../assets/icons8-death-star-50.png';
 // import styles for llst
 import '../../styles/List.css';
 
@@ -26,7 +27,8 @@ export default class PlanetList extends PureComponent {
         return (
             <div className="container">
                 <div className="route-title">
-                    <h3>Planets</h3>
+                    <img src="https://img.icons8.com/cotton/64/000000/mars-planet.png" alt="planets" />
+                    <h1>Planets</h1>
                 </div> 
                 <div>
                     {/* If your data array has data map over the array */}

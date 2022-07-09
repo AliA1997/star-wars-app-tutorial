@@ -7,10 +7,10 @@ export default class Home extends PureComponent {
         return (
             <div>
                 <div className="route-title">
-                    <h3>Home</h3>
+                    <h1>Home</h1>
                 </div>
                 <div>
-                    N/A
+                    
                 </div>
             </div> 
         )

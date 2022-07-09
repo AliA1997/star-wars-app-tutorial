@@ -25,7 +25,8 @@ export default class StarshipList extends PureComponent {
         return (
             <div className="container">
                 <div className="route-title">
-                    <h3> Starships</h3>
+                    <img src="https://img.icons8.com/bubbles/50/000000/death-star.png" alt="Starships" />
+                    <h1> Starships</h1>
                 </div>
                 <div>
                     {/*Map over the data array if it has data, and if it contains data it will be truthy */}

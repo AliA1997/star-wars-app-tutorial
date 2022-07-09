@@ -5,17 +5,22 @@ function Navbar(props) {
     return (
         <nav>
             <button onClick={e => props.navigate(e, '/')}>
-                <h3>Home</h3>
+                <h1>Star Wars App</h1>
             </button>
-            <button onClick={e => props.navigate(e, '/people')}>
-                <h3>People</h3>
-            </button>
-            <button onClick={e => props.navigate(e, '/planets')}>
-                <h3>Planets</h3>
-            </button>
-            <button onClick={e => props.navigate(e, '/starships')}>
-                <h3>Starships</h3>
-            </button>
+            <div>
+                <button onClick={e => props.navigate(e, '/')}>
+                    <h2>Home</h2>
+                </button>
+                <button onClick={e => props.navigate(e, '/people')}>
+                    <h2>People</h2>
+                </button>
+                <button onClick={e => props.navigate(e, '/planets')}>
+                    <h2>Planets</h2>
+                </button>
+                <button onClick={e => props.navigate(e, '/starships')}>
+                    <h2>Starships</h2>
+                </button>
+            </div>
         </nav>
     );
 }

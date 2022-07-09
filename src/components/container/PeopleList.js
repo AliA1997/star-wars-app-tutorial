@@ -26,7 +26,8 @@ export default class PeopleList extends PureComponent {
         return (
             <div className='container'>
                 <div className="route-title">
-                    <h3>Starwars People</h3>
+                    <img src="https://img.icons8.com/color/48/000000/luke-skywalker.png" alt="people" />
+                    <h1>Starwars People</h1>
                 </div>
                 <div>
                     {/*If the data array has values based on if it contains one item which would be truthy.
