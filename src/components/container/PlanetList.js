@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react';
-import PlanetsImg from '../../assets/icons8-death-star-50.png';
 // import styles for llst
 import '../../styles/List.css';
 
