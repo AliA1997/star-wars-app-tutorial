@@ -1,11 +1,11 @@
 p {
     font-family: 'Inria Sans', sans-serif;
-    font-size: 20px;
-    width: 30em;
+    font-size: 30px;
+    width: 20em;
     font-weight: 800;
-    color: #FFD700;
-    opacity: 70%;
+    color: #ffe866;
+    /* opacity: 70%; */
     padding: 1em;
-    box-shadow: 4px 4px 10px 5px #FFD700;
-    background-color: #E2E2DC;
+    box-shadow: 2px 2px 5pt 0 #fff099;
+    background-color: #f2f2f2;
 }

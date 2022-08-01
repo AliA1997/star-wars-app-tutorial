@@ -24,8 +24,8 @@
     width: 100%;
     /*Have your font weight be 800 and have it be color of gold.*/
     font-weight: 800;
-    color: #FFD700;
-    opacity: 70%;
+    color: #ffe866;
+    /* opacity: 70%; */
     font-family: 'Inria Sans', sans-serif;
     display: flex;
 }
@@ -35,6 +35,10 @@
     min-width: 3em;
     height: auto;
     width: auto;
+    margin-right: 20px;
+}
+.route-title > h1 {
+    margin-top: 1em;
 }
 .content {
     width: 80%;
@@ -50,8 +54,8 @@ nav {
     width: 100%;
     margin-left: -0.5%;
     height: 15%;
-    background-color: black;
-    opacity: 70%;
+    background-color: #4d4d4d;
+    /* opacity: 70%; */
     margin-bottom: 2%;
     height: 4.5em;
     padding: 10px;
@@ -59,12 +63,16 @@ nav {
     color: #FFD700;
     display: flex;
     justify-content: space-between;
+    z-index: 9999;
 }
 nav > div {
-    width: 20%;
+    /* width: 20%; */
     display: flex;
     justify-content: space-between;
-    margin-right: 2em;
+    /* margin-right: 2em; */
+    /* Used background color to fix defects in styling. */
+    /* background-color: red; */
+    margin-left: 40%;
 }
 
 button {
@@ -80,7 +88,11 @@ nav > button > * {
     font-size: 2em;
 }
 nav > div > button {
+    margin-right: 5.875em;
     padding-top: 0.5em;
+}
+nav > div > button:last-child {
+    margin-right: 3em;
 }
 nav > div > button > * {
     font-size: 1.7em;
